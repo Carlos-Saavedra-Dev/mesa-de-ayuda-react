@@ -54,6 +54,7 @@ export interface Ticket {
   user_id: string;
   agente_id?: string | null;
   tb_category: Category;
+  status: string;
   tb_priority: Priority;
   tb_user: TicketUser;
   tb_agente?: TicketUser | null;
